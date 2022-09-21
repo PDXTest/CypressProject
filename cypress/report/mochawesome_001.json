@@ -5,9 +5,9 @@
     "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2022-09-21T13:10:50.791Z",
-    "end": "2022-09-21T13:10:55.506Z",
-    "duration": 4715,
+    "start": "2022-09-21T16:40:30.479Z",
+    "end": "2022-09-21T16:40:35.520Z",
+    "duration": 5041,
     "testsRegistered": 1,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "b221e156-b49f-4edb-88a1-29e366bd52f6",
+      "uuid": "1a2fd97f-c09a-42e9-87c1-5ccd17382464",
       "title": "",
       "fullFile": "cypress/integration/e2e/login1.js",
       "file": "cypress/integration/e2e/login1.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "1718e5db-6d75-41cb-9129-7fd507d1090e",
+          "uuid": "4a2eda82-76df-42dc-aaaf-ce48ef7862a6",
           "title": "",
           "fullFile": "",
           "file": "",
@@ -38,7 +38,7 @@
               "title": "",
               "fullTitle": " ",
               "timedOut": null,
-              "duration": 3173,
+              "duration": 3639,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -47,20 +47,20 @@
               "context": null,
               "code": "cy.visit(\"https://opensource-demo.orangehrmlive.com/web/index.php/auth/login\");\ncy.get(':nth-child(2) > .oxd-input-group > :nth-child(2) > .oxd-input').type('Admin');\ncy.get(':nth-child(3) > .oxd-input-group > :nth-child(2) > .oxd-input').type('admin123');\ncy.get('.oxd-button').click();",
               "err": {},
-              "uuid": "493c6d79-77b5-44be-afeb-5f21cb75ce04",
-              "parentUUID": "1718e5db-6d75-41cb-9129-7fd507d1090e",
+              "uuid": "86acf2f1-6001-4cbf-af63-7f7f467535be",
+              "parentUUID": "4a2eda82-76df-42dc-aaaf-ce48ef7862a6",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "493c6d79-77b5-44be-afeb-5f21cb75ce04"
+            "86acf2f1-6001-4cbf-af63-7f7f467535be"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 3173,
+          "duration": 3639,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000

@@ -5,9 +5,9 @@
     "passes": 3,
     "pending": 0,
     "failures": 0,
-    "start": "2022-09-21T13:10:40.415Z",
-    "end": "2022-09-21T13:11:03.285Z",
-    "duration": 10713,
+    "start": "2022-09-21T16:40:21.199Z",
+    "end": "2022-09-21T16:40:43.383Z",
+    "duration": 9996,
     "testsRegistered": 3,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "6bffb4f0-54c7-4424-a743-4ccac612fcdb",
+      "uuid": "dbc18add-c712-40ae-90a6-8cdc46bf9b53",
       "title": "",
       "fullFile": "cypress/integration/e2e/login.js",
       "file": "cypress/integration/e2e/login.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "6f3a1bf1-0fd9-4812-8814-c37bb47884a6",
+          "uuid": "966d769b-e707-4194-b990-a53b22422c20",
           "title": "",
           "fullFile": "",
           "file": "",
@@ -38,7 +38,7 @@
               "title": "",
               "fullTitle": " ",
               "timedOut": null,
-              "duration": 4462,
+              "duration": 3152,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -47,20 +47,20 @@
               "context": null,
               "code": "cy.visit(\"https://opensource-demo.orangehrmlive.com/web/index.php/auth/login\");\ncy.get(':nth-child(2) > .oxd-input-group > :nth-child(2) > .oxd-input').type('Admin');\ncy.get(':nth-child(3) > .oxd-input-group > :nth-child(2) > .oxd-input').type('admin123');\ncy.get('.oxd-button').click();",
               "err": {},
-              "uuid": "a67f8e13-7cde-432d-9596-b0ea8668974d",
-              "parentUUID": "6f3a1bf1-0fd9-4812-8814-c37bb47884a6",
+              "uuid": "9a921d9e-b267-42fb-b9d4-896ca8a7e9e0",
+              "parentUUID": "966d769b-e707-4194-b990-a53b22422c20",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "a67f8e13-7cde-432d-9596-b0ea8668974d"
+            "9a921d9e-b267-42fb-b9d4-896ca8a7e9e0"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 4462,
+          "duration": 3152,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
@@ -76,7 +76,7 @@
       "_timeout": 2000
     },
     {
-      "uuid": "b221e156-b49f-4edb-88a1-29e366bd52f6",
+      "uuid": "1a2fd97f-c09a-42e9-87c1-5ccd17382464",
       "title": "",
       "fullFile": "cypress/integration/e2e/login1.js",
       "file": "cypress/integration/e2e/login1.js",
@@ -85,7 +85,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "1718e5db-6d75-41cb-9129-7fd507d1090e",
+          "uuid": "4a2eda82-76df-42dc-aaaf-ce48ef7862a6",
           "title": "",
           "fullFile": "",
           "file": "",
@@ -96,7 +96,7 @@
               "title": "",
               "fullTitle": " ",
               "timedOut": null,
-              "duration": 3173,
+              "duration": 3639,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -105,20 +105,20 @@
               "context": null,
               "code": "cy.visit(\"https://opensource-demo.orangehrmlive.com/web/index.php/auth/login\");\ncy.get(':nth-child(2) > .oxd-input-group > :nth-child(2) > .oxd-input').type('Admin');\ncy.get(':nth-child(3) > .oxd-input-group > :nth-child(2) > .oxd-input').type('admin123');\ncy.get('.oxd-button').click();",
               "err": {},
-              "uuid": "493c6d79-77b5-44be-afeb-5f21cb75ce04",
-              "parentUUID": "1718e5db-6d75-41cb-9129-7fd507d1090e",
+              "uuid": "86acf2f1-6001-4cbf-af63-7f7f467535be",
+              "parentUUID": "4a2eda82-76df-42dc-aaaf-ce48ef7862a6",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "493c6d79-77b5-44be-afeb-5f21cb75ce04"
+            "86acf2f1-6001-4cbf-af63-7f7f467535be"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 3173,
+          "duration": 3639,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
@@ -134,7 +134,7 @@
       "_timeout": 2000
     },
     {
-      "uuid": "7de3c8c6-111f-4087-aa53-e3a736c2dba3",
+      "uuid": "9344d799-1c3a-4522-b71b-1bb1e79d26b5",
       "title": "",
       "fullFile": "cypress/integration/e2e/login2.js",
       "file": "cypress/integration/e2e/login2.js",
@@ -143,7 +143,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "a4ddd21a-1da2-4649-b41e-8d842b28cbaf",
+          "uuid": "3e85f665-1cf3-4acf-8f9f-87983bc01795",
           "title": "",
           "fullFile": "",
           "file": "",
@@ -154,7 +154,7 @@
               "title": "",
               "fullTitle": " ",
               "timedOut": null,
-              "duration": 3078,
+              "duration": 3205,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -163,20 +163,20 @@
               "context": null,
               "code": "cy.visit(\"https://opensource-demo.orangehrmlive.com/web/index.php/auth/login\");\ncy.get(':nth-child(2) > .oxd-input-group > :nth-child(2) > .oxd-input').type('Admin');\ncy.get(':nth-child(3) > .oxd-input-group > :nth-child(2) > .oxd-input').type('admin123');\ncy.get('.oxd-button').click();",
               "err": {},
-              "uuid": "bc176c9e-6724-43ab-848d-00b5128eb1f0",
-              "parentUUID": "a4ddd21a-1da2-4649-b41e-8d842b28cbaf",
+              "uuid": "8dec7f55-0475-4f7a-be94-3ddd4b8dd226",
+              "parentUUID": "3e85f665-1cf3-4acf-8f9f-87983bc01795",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "bc176c9e-6724-43ab-848d-00b5128eb1f0"
+            "8dec7f55-0475-4f7a-be94-3ddd4b8dd226"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 3078,
+          "duration": 3205,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000

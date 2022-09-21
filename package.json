@@ -9,7 +9,7 @@
     "cypress-test": "cypress run",
     "posttest": "npm run merge-reports && npm run generate-htmlreport",
     "merge-reports": "mochawesome-merge ./cypress/report/*.json > ./cypress/report/jsonFinalReport.json",
-    "generate-htmlreport": "marge ./cypress/report/jsonFinalReport.json --reportDir ./cypress/report/FinalHTMLreport.html"
+    "generate-htmlreport": "marge ./cypress/report/jsonFinalReport.json --reportDir ./cypress/report"
   },
   "keywords": [],
   "author": "",
